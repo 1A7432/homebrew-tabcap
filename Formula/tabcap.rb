@@ -9,24 +9,24 @@
 class Tabcap < Formula
   desc "Browser for AI agents: background tabs, a11y-tree refs, recorded traffic"
   homepage "https://github.com/1A7432/tabcap"
-  version "0.8.0"
+  version "0.8.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/1A7432/tabcap/releases/download/v0.8.0/tabcap-v0.8.0-darwin-arm64.tar.gz"
-      sha256 "639b89de79432a499dd3d9822571c539525231dd8035f833471829300860701d"
+      url "https://github.com/1A7432/tabcap/releases/download/v0.8.1/tabcap-v0.8.1-darwin-arm64.tar.gz"
+      sha256 "be615d46ad07e21001e81571494e52a9f6acd1338c3fb9645b8c148113160a82"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/1A7432/tabcap/releases/download/v0.8.0/tabcap-v0.8.0-linux-x64.tar.gz"
-      sha256 "de720b5b2ac119e7660fc16f5b7aad25aaadfb1ec83c4ab7dcc6dc77e9afbf1f"
+      url "https://github.com/1A7432/tabcap/releases/download/v0.8.1/tabcap-v0.8.1-linux-x64.tar.gz"
+      sha256 "aac73b2c43b7091d61aa0e1f2d1d247f0f837705028014fed9c73a3bff0e6b4d"
     end
     on_arm do
-      url "https://github.com/1A7432/tabcap/releases/download/v0.8.0/tabcap-v0.8.0-linux-arm64.tar.gz"
-      sha256 "fe055dc8c1259c1643da2b04173bff64252f9af678253d7939c029e04e2f134e"
+      url "https://github.com/1A7432/tabcap/releases/download/v0.8.1/tabcap-v0.8.1-linux-arm64.tar.gz"
+      sha256 "c4ff0d4fc4b1ce40dd7ac15492abfd2ac99864cef07f5d78209c1f1e7e8db2db"
     end
   end
 
